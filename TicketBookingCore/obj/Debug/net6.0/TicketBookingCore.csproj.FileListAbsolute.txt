@@ -1,0 +1,17 @@
+d:\Learning\TDD\TicketBookingCore\bin\Debug\net6.0\TicketBookingCore.deps.json
+d:\Learning\TDD\TicketBookingCore\bin\Debug\net6.0\TicketBookingCore.dll
+d:\Learning\TDD\TicketBookingCore\bin\Debug\net6.0\TicketBookingCore.pdb
+d:\Learning\TDD\TicketBookingCore\bin\Debug\net6.0\Domain.dll
+d:\Learning\TDD\TicketBookingCore\bin\Debug\net6.0\Domain.pdb
+d:\Learning\TDD\TicketBookingCore\obj\Debug\net6.0\TicketBookingCore.csproj.AssemblyReference.cache
+d:\Learning\TDD\TicketBookingCore\obj\Debug\net6.0\TicketBookingCore.GeneratedMSBuildEditorConfig.editorconfig
+d:\Learning\TDD\TicketBookingCore\obj\Debug\net6.0\TicketBookingCore.AssemblyInfoInputs.cache
+d:\Learning\TDD\TicketBookingCore\obj\Debug\net6.0\TicketBookingCore.AssemblyInfo.cs
+d:\Learning\TDD\TicketBookingCore\obj\Debug\net6.0\TicketBookingCore.csproj.CoreCompileInputs.cache
+d:\Learning\TDD\TicketBookingCore\obj\Debug\net6.0\TicketBookingCore.csproj.CopyComplete
+d:\Learning\TDD\TicketBookingCore\obj\Debug\net6.0\TicketBookingCore.dll
+d:\Learning\TDD\TicketBookingCore\obj\Debug\net6.0\refint\TicketBookingCore.dll
+d:\Learning\TDD\TicketBookingCore\obj\Debug\net6.0\TicketBookingCore.pdb
+d:\Learning\TDD\TicketBookingCore\obj\Debug\net6.0\ref\TicketBookingCore.dll
+d:\Learning\TDD\TicketBookingCore\bin\Debug\net6.0\TicketBookingPersistence.dll
+d:\Learning\TDD\TicketBookingCore\bin\Debug\net6.0\TicketBookingPersistence.pdb

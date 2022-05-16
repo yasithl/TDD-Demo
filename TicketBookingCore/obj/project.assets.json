@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "TicketBookingPersistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TicketBookingPersistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicketBookingPersistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "TicketBookingPersistence/1.0.0": {
+      "type": "project",
+      "path": "../TicketBookingPersistence/TicketBookingPersistence.csproj",
+      "msbuildProject": "../TicketBookingPersistence/TicketBookingPersistence.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Domain >= 1.0.0",
+      "TicketBookingPersistence >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Yasith\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "d:\\Learning\\TDD\\TicketBookingCore\\TicketBookingCore.csproj",
+      "projectName": "TicketBookingCore",
+      "projectPath": "d:\\Learning\\TDD\\TicketBookingCore\\TicketBookingCore.csproj",
+      "packagesPath": "C:\\Users\\Yasith\\.nuget\\packages\\",
+      "outputPath": "d:\\Learning\\TDD\\TicketBookingCore\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Yasith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "d:\\Learning\\TDD\\Domain\\Domain.csproj": {
+              "projectPath": "d:\\Learning\\TDD\\Domain\\Domain.csproj"
+            },
+            "d:\\Learning\\TDD\\TicketBookingPersistence\\TicketBookingPersistence.csproj": {
+              "projectPath": "d:\\Learning\\TDD\\TicketBookingPersistence\\TicketBookingPersistence.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
